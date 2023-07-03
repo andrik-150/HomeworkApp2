@@ -8,7 +8,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private var imageView = UIImageView(image: UIImage(named: "logo"))
+    private var imageView = UIImageView(image: UIImage(named: "profil-mordy-tigra-vo-tme.jpg"))
     
     private var label: UILabel = {
         let label = UILabel()
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate([imageView.widthAnchor.constraint(equalToConstant: 150),
                                      imageView.heightAnchor.constraint(equalToConstant: 150),
                                      imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                                     imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+                                     imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 140),
                                      label.heightAnchor.constraint(equalToConstant: 100),
                                      label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                                      label.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
